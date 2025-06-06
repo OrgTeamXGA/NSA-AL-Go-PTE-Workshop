@@ -4,5 +4,18 @@
   "appFolders": [],
   "testFolders": [],
   "bcptTestFolders": [],
-  "repoVersion": "2.0"
+  "repoVersion": "2.0",
+  "DeployToQA": {
+    "EnvironmentType": "???",
+    "ContinuousDeployment": true
+  },
+  "DeployToUAT": {
+    "EnvironmentType": "???",
+    "ContinuousDeployment": true
+  },
+  "DeployToProduction": {
+    "continuousDeployment": false
+  },
+  "useCompilerFolder": false,
+  "doNotPublishApps": false
 }
