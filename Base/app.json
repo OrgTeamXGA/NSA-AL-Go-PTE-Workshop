@@ -2,7 +2,7 @@
   "id": "068ed784-2be9-411c-a4dd-28bfaed388ed",
   "name": "Base",
   "publisher": "COSMO Consult",
-  "version": "2.0.0.0",
+  "version": "3.0.0.0",
   "brief": "",
   "description": "",
   "privacyStatement": "",
@@ -30,9 +30,9 @@
   },
   "internalsVisibleTo": [
     {
-        "id": "368cbe8a-7345-492b-8db5-ff8421ee4c93",
-        "name": "Base.Test",
-        "publisher": "COSMO Consult"
+      "id": "368cbe8a-7345-492b-8db5-ff8421ee4c93",
+      "name": "Base.Test",
+      "publisher": "COSMO Consult"
     }
   ]
 }
