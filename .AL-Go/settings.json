@@ -1,8 +1,12 @@
 {
   "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go-Actions/v7.2/settings.schema.json",
-  "country": "us",
-  "appFolders": [],
-  "testFolders": [],
+  "country": "fr",
+  "appFolders": [
+    "Base"
+  ],
+  "testFolders": [
+    "Base.Test"
+  ],
   "bcptTestFolders": [],
   "repoVersion": "3.0",
   "DeployToQA": {
