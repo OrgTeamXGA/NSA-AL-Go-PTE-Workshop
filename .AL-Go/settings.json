@@ -4,7 +4,7 @@
   "appFolders": [],
   "testFolders": [],
   "bcptTestFolders": [],
-  "repoVersion": "2.0",
+  "repoVersion": "3.0",
   "DeployToQA": {
     "EnvironmentType": "???",
     "ContinuousDeployment": true
