@@ -1,0 +1,31 @@
+{
+  "id": "068ed784-2be9-411c-a4dd-28bfaed388ed",
+  "name": "Base",
+  "publisher": "COSMO Consult",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "22.0.0.0",
+  "idRanges": [
+    {
+      "from": 50000,
+      "to": 50099
+    }
+  ],
+  "features": [
+    "NoImplicitWith"
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": false,
+    "includeSourceInSymbolFile": false
+  }
+}
