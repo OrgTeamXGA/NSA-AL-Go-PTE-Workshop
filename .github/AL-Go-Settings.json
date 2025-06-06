@@ -3,7 +3,20 @@
   "type": "PTE",
   "templateUrl": "https://github.com/microsoft/AL-Go-PTE@main",
   "templateSha": "e2478819f6dda468d6716036ccdd2dc89dd458b6",
-  "CurrentSchedule": "0 2 * * *",
-  "NextMinorSchedule": "0 2 * * 6",
-  "NextMajorSchedule": "0 2 * * 0"
+  "conditionalSettings": [
+    {
+      "workflows": [
+        "Test Current",
+        "Test Next Minor",
+        "Test Next Major"
+      ],
+      "settings": {
+        "workflowSchedule": {
+          "cron": "30 0 * * 0"
+        },
+        "useCompilerFolder": true,
+        "doNotPublishApps": true
+      }
+    }
+  ]
 }
