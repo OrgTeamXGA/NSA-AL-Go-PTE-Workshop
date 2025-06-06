@@ -5,15 +5,24 @@
   "testFolders": [],
   "bcptTestFolders": [],
   "repoVersion": "3.0",
+  "environments": [
+    "QA",
+    "UAT",
+    "Production"
+  ],
   "DeployToQA": {
-    "EnvironmentType": "???",
+    "EnvironmentType": "OnPremise",
+    "EnvironmentName": "QA",
     "ContinuousDeployment": true
   },
   "DeployToUAT": {
-    "EnvironmentType": "???",
+    "EnvironmentType": "OnPremise",
+    "EnvironmentName": "UAT",
     "ContinuousDeployment": true
   },
   "DeployToProduction": {
+    "EnvironmentType": "OnPremise",
+    "EnvironmentName": "Production",
     "continuousDeployment": false
   },
   "useCompilerFolder": false,
