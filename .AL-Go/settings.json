@@ -5,7 +5,8 @@
     "Base"
   ],
   "testFolders": [
-    "Base.Test"
+    "Base.Test",
+    "Demo.Test"
   ],
   "bcptTestFolders": [],
   "repoVersion": "3.0",
