@@ -1,5 +1,34 @@
 {
-    "version": "0.2.0",
-    "configurations": [
-    ]
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "al",
+      "request": "launch",
+      "name": "launch: ccfr-al-go-workshop",
+      "server": "https://cosmo-alpaca-enterprise.westeurope.cloudapp.azure.com",
+      "serverInstance": "f0d75a81518fdev",
+      "port": 443,
+      "authentication": "UserPassword",
+      "environmentType": "OnPrem",
+      "tenant": "default",
+      "startupObjectType": "Page",
+      "startupObjectId": 22,
+      "breakOnError": true,
+      "launchBrowser": true,
+      "enableLongRunningSqlStatements": true,
+      "enableSqlInformationDebugger": true
+    },
+    {
+      "type": "al",
+      "request": "snapshotInitialize",
+      "name": "snapshotInitialize: ccfr-al-go-workshop",
+      "server": "https://cosmo-alpaca-enterprise.westeurope.cloudapp.azure.com",
+      "serverInstance": "f0d75a81518fsnap",
+      "port": 443,
+      "authentication": "UserPassword",
+      "environmentType": "OnPrem",
+      "tenant": "default",
+      "breakOnNext": "WebClient"
+    }
+  ]
 }

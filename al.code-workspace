@@ -10,5 +10,16 @@
       "path": ".AL-Go"
     }
   ],
-  "settings": {}
+  "settings": {
+    "CRS.AlSubFolderName": "src",
+    "CRS.ExtensionObjectNamePattern": "",
+    "CRS.FileNamePattern": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+    "CRS.FileNamePatternExtensions": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+    "CRS.FileNamePatternPageCustomizations": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+    "CRS.ObjectNamePrefix": "CCO",
+    "CRS.RemovePrefixFromFilename": true,
+    "CRS.ReorganizeByNamespace": true,
+    "CRS.NamespacePrefixToIgnore": "CosmoConsult.Operations.Own",
+    "CRS.OnSaveAlFileAction": "Reorganize"
+  }
 }

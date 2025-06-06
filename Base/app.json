@@ -27,5 +27,12 @@
     "allowDebugging": true,
     "allowDownloadingSource": false,
     "includeSourceInSymbolFile": false
-  }
+  },
+  "internalsVisibleTo": [
+    {
+        "id": "368cbe8a-7345-492b-8db5-ff8421ee4c93",
+        "name": "Base.Test",
+        "publisher": "COSMO Consult"
+    }
+  ]
 }
